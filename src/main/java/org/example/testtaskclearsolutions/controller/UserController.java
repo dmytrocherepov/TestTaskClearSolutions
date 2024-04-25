@@ -15,11 +15,6 @@ import java.util.List;
 public class UserController {
     private final UserService userService;
 
-    @PostMapping("/register")
-    public UserResponseDto register(@RequestBody @Valid UserRegistrationRequestDto request) {
-        return userService.register(request);
-    }
-
     @DeleteMapping("/{id}")
     @ResponseStatus(HttpStatus.OK)
     public void deleteById(@PathVariable Long id) {
