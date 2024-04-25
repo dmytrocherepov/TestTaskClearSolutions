@@ -1,5 +1,5 @@
 Implemetation of the TestTask
-Additionaly added spring security for the best practises and jwt token.
+Additionaly added Spring Security (Authentication using JWT token).
 
 Techology : Java 17 , SpringBoot v3.1.5 , PostgreSQL , Hibernate , JUnit 5 , Mockito , Spring Security , Spring Data Jpa , JWT , Maven , Lombok , MapStruct.
 
